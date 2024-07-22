@@ -21,23 +21,30 @@ public class LargeJsonFileWriter2 {
     }
 
     public static void main(String[] args) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("D:/tempData/2024/06/20/20240620000001.json"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("D:/tempData/2024/06/21/20240621000001.json"))) {
             writer.write("["); // JSON 배열 시작
 
             //생성할 학생수
             int  row = 1000;
             String value = "";
-            for (int i = 2; i < 100; i++) {
+            for (int i = 2; i < 500; i++) {
                 String value1 = "MATH" + String.format("%07d", i);
                 value += ",{\"code\":\""+value1+"\",\"name\":\"분수의계산\",\"value\":"+getRandomValue()+"}";
             }
             String valueENG = "";
-            for (int i = 3; i < 100; i++) {
+            for (int i = 3; i < 500; i++) {
                 String value1 = "ENG" + String.format("%07d", i);
                 value += ",{\"code\":\""+value1+"\",\"name\":\"주문하기\",\"value\":"+getRandomValue()+"}";
             }
             for (int i = 0; i <  row; i++) {
-                String accountName = UUID.randomUUID().toString();
+//                String accountName = UUID.randomUUID().toString();
+                String accountName = switch (i) {
+                    case 0 -> "aa31ffd7-69f5-4842-a916-a31d10dc678e";
+                    case 1 -> "aa32ffd7-69f5-4842-a916-a31d10dc678d";
+                    case 2 -> "aa33ffd7-69f5-4842-a916-a31d10dc678c";
+                    case 3 -> "aa34ffd7-69f5-4842-a916-a31d10dc678b";
+                    default -> UUID.randomUUID().toString();
+                };
                 String jsonString = String.format("{\"account_name\":\"%s\",\"metrics\":[{\"code\":\"KC\",\"name\":\"학업성취\",\"child\":[{\"code\":\"KCMATH\",\"name\":\"수학성취\"" +
                                 ",\"child\"" + ":[" +
                                  "{\"code\":\"MATH0000001\",\"name\":\"두자리 수의 덧셈\",\"value\":0.7}" + value + "]}" +
