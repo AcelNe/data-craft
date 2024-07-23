@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccdcd8dc-7126-41b0-ab4d-89a7902f536b" name="Changes" comment="nio.file.Files">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/work/file/IncludeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/work/tempData/openapi/TourismStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="ccdcd8dc-7126-41b0-ab4d-89a7902f536b" name="Changes" comment="json file 특정값 추출">
+      <change afterPath="$PROJECT_DIR$/src/main/java/work/tempData/CreateDataFileInServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work/tempData/LargeJsonFileWriter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/work/tempData/LargeJsonFileWriter2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,33 +43,34 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.IncludeString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KCCodeInsert.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargeJsonFileWriter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargeJsonFileWriter2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NIO.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TourismStats.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.data-craft [:Base64Encrypt.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.data-craft [:LargeJsonFileWriter.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;file&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MONINGSUN/IdeaProjects/data-craft/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.33333334&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.kotlinCompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CreateDataFileInServer.executor": "Debug",
+    "Application.IncludeString.executor": "Run",
+    "Application.KCCodeInsert.executor": "Run",
+    "Application.LargeJsonFileWriter.executor": "Run",
+    "Application.LargeJsonFileWriter2.executor": "Run",
+    "Application.NIO.executor": "Run",
+    "Application.TourismStats.executor": "Run",
+    "Gradle.data-craft [:Base64Encrypt.main()].executor": "Run",
+    "Gradle.data-craft [:LargeJsonFileWriter.main()].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "file",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/MONINGSUN/IdeaProjects/data-craft/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.33333334",
+    "settings.editor.selected.configurable": "project.kotlinCompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\MONINGSUN\IdeaProjects\data-craft\src\main\resources" />
@@ -82,39 +79,26 @@
       <recent name="C:\Users\MONINGSUN\IdeaProjects\data-craft\src\main\java\work\tempData" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IncludeString">
+  <component name="RunManager" selected="Application.CreateDataFileInServer">
+    <configuration name="CreateDataFileInServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work.tempData.CreateDataFileInServer" />
+      <module name="data-craft.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="work.tempData.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IncludeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="work.file.IncludeString" />
       <module name="data-craft.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="work.file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KCCodeInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work.tempData.KCCodeInsert" />
-      <module name="data-craft.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="work.tempData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargeJsonFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work.tempData.LargeJsonFileWriter" />
-      <module name="data-craft.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="work.tempData.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateDataFileInServer" />
         <item itemvalue="Application.IncludeString" />
         <item itemvalue="Application.TourismStats" />
         <item itemvalue="Application.NIO" />
         <item itemvalue="Application.LargeJsonFileWriter2" />
-        <item itemvalue="Application.LargeJsonFileWriter" />
       </list>
     </recent_temporary>
   </component>
@@ -241,6 +225,7 @@
       <workItem from="1721119969242" duration="14000" />
       <workItem from="1721193775982" duration="3437000" />
       <workItem from="1721267226377" duration="824000" />
+      <workItem from="1721620830954" duration="7251000" />
     </task>
     <task id="LOCAL-00001" summary="dependency gson 추가">
       <option name="closed" value="true" />
@@ -298,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719213259515</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="json file 특정값 추출">
+      <option name="closed" value="true" />
+      <created>1721621013533</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721621013533</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +327,8 @@
     <MESSAGE value="Util 추가: json sample" />
     <MESSAGE value="json file 생성" />
     <MESSAGE value="nio.file.Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="nio.file.Files" />
+    <MESSAGE value="json file 특정값 추출" />
+    <option name="LAST_COMMIT_MESSAGE" value="json file 특정값 추출" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
